@@ -54,7 +54,9 @@ This comprehensive project presents an intelligent digital banking ecosystem pow
 ```
 AIinDigitalBank/
 ├── docs/                          # Documentation
-│   ├── THESIS.md                  # Master thesis & research paper
+│   ├── THESIS.md                  # Master thesis (English)
+│   ├── THESIS_VI.md               # Master thesis (Tiếng Việt)
+│   ├── CASE_STUDIES.md            # Real-world case studies
 │   ├── ARCHITECTURE.md            # System architecture details
 │   ├── DATA_DESIGN.md             # Data model & schemas
 │   ├── AI_MODELS.md               # ML models specification
@@ -228,7 +230,10 @@ uvicorn src.api.main:app --reload --host 0.0.0.0 --port 8000
 
 Detailed documentation is available in the `docs/` directory:
 
-- [**THESIS.md**](docs/THESIS.md) - Comprehensive research paper & theoretical foundation
+**📋 Core Documentation**:
+- [**THESIS.md**](docs/THESIS.md) - Comprehensive research paper (English, 50+ pages)
+- [**THESIS_VI.md**](docs/THESIS_VI.md) - Luận Án Chuyên Đề (Tiếng Việt, 50+ trang)
+- [**CASE_STUDIES.md**](docs/CASE_STUDIES.md) - Real-world case studies (DBS Bank, Revolut)
 - [**ARCHITECTURE.md**](docs/ARCHITECTURE.md) - System architecture & design patterns
 - [**DATA_DESIGN.md**](docs/DATA_DESIGN.md) - Data model & database schema
 - [**AI_MODELS.md**](docs/AI_MODELS.md) - ML models specification & algorithms
